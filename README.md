@@ -1,11 +1,14 @@
 Baseline
 =======
+
+8/20/13
+
 This baseline app provides out of the box support and modest integration of
 
-CanCan
-Devise
-Omniauth-google on top of devise
-Bourbon
+CanCan,
+Devise,
+Omniauth-google on top of devise,
+Bourbon,
 Neat on top of Bourbon
 
 A user model has been created and a single user has been created on that table.
