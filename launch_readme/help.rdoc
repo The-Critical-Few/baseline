@@ -1,5 +1,3 @@
-Baseline
-=======
 This baseline app provides out of the box support and modest integration of
 
 CanCan
