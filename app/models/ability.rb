@@ -3,7 +3,7 @@ class Ability
 
   def initialize(user)
       
-      
+   user ||= User.new # guest user (not logged in)   
    if user.role? :superadmin
      can :manage, :all
      can :index, User
@@ -18,7 +18,7 @@ class Ability
        #user.id == current_user.id #User can only edit the current user.
      #end
     #end
-   if user.role? :user
+   elsif user.role? :user
      can :read, :all
      cannot :index, User
      can [:show, :edit, :update], User do |current_user|

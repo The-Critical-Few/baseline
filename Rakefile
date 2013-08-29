@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Theverb::Application.load_tasks
+Baseline::Application.load_tasks

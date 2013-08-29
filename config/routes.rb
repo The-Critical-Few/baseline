@@ -16,7 +16,13 @@ Baseline::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root :to => 'users#index'
+     root :to => 'pages#welcome'
+     get "/welcome" => "pages#welcome"
+     get "/about" => "pages#about"
+     get "/contact" => "pages#contact"
+     get "/legal" => "pages#legal"
+     get "/terms" => "pages#terms"
+     get "/mission" => "pages#mission"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
