@@ -1,4 +1,4 @@
-Baseline::Application.routes.draw do
+Homeandheart::Application.routes.draw do
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
   
   get "/auth/:provider/callback" => "sessions#create"

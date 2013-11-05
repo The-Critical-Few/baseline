@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Baseline::Application.load_tasks
+Homeandheart::Application.load_tasks
