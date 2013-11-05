@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Homeandheart::Application.config.secret_key_base = 'f9183747d2a02c8d5471f12828e31ca6cfed59b96b4aedaae9b57060eddfc7b371c8b961c75069bca58f186b1fc6c6ac769ec3aa2270701385095aa7d169b7d3'
+Baseline::Application.config.secret_key_base = 'f9183747d2a02c8d5471f12828e31ca6cfed59b96b4aedaae9b57060eddfc7b371c8b961c75069bca58f186b1fc6c6ac769ec3aa2270701385095aa7d169b7d3'
